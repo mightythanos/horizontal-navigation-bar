@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> horizontal navigation bar with full width background background-color</title>
+        <style>
+            ul{
+                background-color: darkgrey;
+                list-style-type: none;
+                overflow: hidden;
+                margin: 0;
+                padding: 0;
+            }
+            li{
+                float: left;
+            }
+            li a {
+                padding: 8px;
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>horizontal navigation bar with full width background background-color</h2>
+        <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about us">about us</a></li>
+            <li><a href="#contact">contact</a></li>
+            <li><a href="work with us">work with us</a></li>
+        </ul>
+        <p>A background color is added to the list instead of each link to create a full-width background color.</p>
+<p><b>Note:</b> overflow:hidden is added to the ul element to prevent li elements from going outside of the list.</p>
+    </body>
+</html>
